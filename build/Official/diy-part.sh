@@ -76,7 +76,7 @@ export kernel_usage="stable"
 
 # 修改插件名字
 sed -i 's/"终端"/"TTYD"/g' `egrep "终端" -rl ./`
-sed -i 's/"NAS"/"存储"/g' `egrep "NAS" -rl ./`
+sed -i 's/"网络储存"/"存储"/g' `egrep "网络储存" -rl ./`
 sed -i 's/"实时流量监测"/"流量"/g' `egrep "实时流量监测" -rl ./`
 sed -i 's/"KMS 服务器"/"KMS激活"/g' `egrep "KMS 服务器" -rl ./`
 sed -i 's/"USB 打印服务器"/"打印服务"/g' `egrep "USB 打印服务器" -rl ./`
