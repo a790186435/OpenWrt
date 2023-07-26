@@ -1,7 +1,7 @@
-diff --git a/test1.txt b/test2.txt
+diff --git a/package/kernel/mt76/Makefile b/package/kernel/mt76/Makefile
 index 0dfe760..1e50475 100644
---- a/test1.txt
-+++ b/test2.txt
+--- a/package/kernel/mt76/Makefile
++++ b/package/kernel/mt76/Makefile
 @@ -262,6 +262,12 @@ define KernelPackage/mt7921-firmware
    TITLE:=MediaTek MT7921 firmware
  endef
