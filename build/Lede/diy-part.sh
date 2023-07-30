@@ -76,7 +76,8 @@ export kernel_usage="stable"
 
 # 修改插件名字
 sed -i 's/"aMule设置"/"电驴下载"/g' `egrep "aMule设置" -rl ./`
-sed -i 's/"nas"/"存储"/g' `egrep "nas" -rl ./`
+sed -i 's/"Socat"/"端口转发"/g' `egrep "Socat" -rl ./`
+sed -i 's/"WatchCat"/"断网重启"/g' `egrep "WatchCat" -rl ./`
 sed -i 's/"NAS"/"存储"/g' `egrep "NAS" -rl ./`
 sed -i 's/"网络存储"/"存储"/g' `egrep "网络存储" -rl ./`
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `egrep "Turbo ACC 网络加速" -rl ./`
