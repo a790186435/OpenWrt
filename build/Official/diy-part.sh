@@ -83,9 +83,6 @@ sed -i 's/"USB 打印服务器"/"打印服务"/g' `egrep "USB 打印服务器" -
 sed -i 's/"Web 管理"/"Web管理"/g' `egrep "Web 管理" -rl ./`
 sed -i 's/"管理权"/"管理权"/g' `egrep "管理权" -rl ./`
 sed -i 's/"带宽监控"/"监控"/g' `egrep "带宽监控" -rl ./`
-sed -i 's/"Socat"/"端口转发"/g' `egrep "Socat" -rl ./`
-sed -i 's/"WatchCat"/"断网重启"/g' `egrep "WatchCat" -rl ./`
-sed -i 's/"NAS"/"存储"/g' `egrep "NAS" -rl ./`
 
 
 
