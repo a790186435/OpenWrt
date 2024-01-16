@@ -96,9 +96,9 @@ profiles.json
 openwrt-x86-64-generic-kernel.bin
 openwrt-x86-64-generic.manifest
 openwrt-x86-64-generic-squashfs-rootfs.img.gz
-openwrt-x86-64-generic-ext4-combined.img.gz
-openwrt-x86-64-generic-ext4-rootfs.img.gz
 openwrt-x86-64-generic-rootfs.tar.gz
+openwrt-x86-64-generic-ext4-rootfs.img.gz
+openwrt-x86-64-generic-ext4-combined.img.gz
 openwrt-x86-64-generic-ext4-combined-efi.img.gz
 EOF
 
